@@ -2,6 +2,7 @@
 It's a simple Ionic chat template design with Google and Facebook auth.
 <p>Um chat legal feito com Ionic, belo design e login social...</p>
 
+<br></br>
 #### How to use this template
 
 <p>To use this, download or copy the code and paste this into a folder and:</p> 
