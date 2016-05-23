@@ -1,5 +1,6 @@
 # Chat-legal
 It's a simple Ionic chat template design with Google and Facebook auth.
+<p>Um chat legal feito com Ionic, belo design e login social...</p>
 
 #### How to use this template
 
