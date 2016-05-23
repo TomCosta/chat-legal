@@ -1,0 +1,27 @@
+<ion-view view-title="PROFILE">
+  <ion-content id="profile">
+   <div style="width:100%;">
+  <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="panel panel-card" ng-repeat="profile in displayprofile">
+      <div class="r-t pos-rlt" md-ink-ripple style="background:url({{profile.image}}) center center; background-size:cover">
+        <div class="p-lg bg-white-overlay text-center r-t">
+          <a href class="w-xs inline">
+            <img src="{{profile.image}}" class="img-circle img-responsive">
+          </a>
+          <div class="m-b m-t-sm h2">
+            <span class="">{{profile.userName}}</span>
+          </div>
+          <a class="btn btn-sm btn-success m-b p-h no-border" ng-click="editProfilePic()">Edit</a>
+        </div>
+      </div>
+      <div class="pad">
+        <p><strong>STATUS</strong></p>
+        <p>{{profile.status}} <i class="icon ion-edit pull-right" style="font-size:20px;"></i></p>
+      </div>
+      <div ng-repeat="pic in pics"></div>
+      <img src="{{pic}}">
+    </div>
+  </div>
+  </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,41 @@
+[{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/igorgarybaldi/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"user":"chat 1"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg",
+	"message":"user 1 : This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"user":"Group 1"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/malykhinv/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"user":"chat 1"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/joelhelin/128.jpg",
+	"message":"user 1 : This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"user":"Group 1"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/kushsolitary/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"user":"chat 1"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/coreyweb/128.jpg",
+	"message":"user 1 : This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"user":"Group 1"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/snowshade/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"user":"chat 1"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/areus/128.jpg",
+	"message":"user 1 : This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"user":"Group 1"
+}]

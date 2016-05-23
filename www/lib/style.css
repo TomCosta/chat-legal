@@ -1,0 +1,313 @@
+#background{
+	background-color: #3F51B5!important;
+}
+.white{
+	color: #fff;
+}
+.bar-footer{
+	height: 50px!important;
+}
+.ion-ios-arrow-back{
+	color: #fff!important;
+}
+.back-button{
+	color: #fff!important;	
+}
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+/*Placeholder css*/
+::-webkit-input-placeholder { /* Safari, Chrome and Opera */
+  color: #BDBDBD!important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #BDBDBD!important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #BDBDBD!important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #BDBDBD!important;
+}
+::-ms-input-placeholder { /* Edge */
+  color: #BDBDBD!important;
+}
+:placeholder-shown { /* Standard one last! */
+  color: #BDBDBD!important;
+}
+/*login page css*/
+#loginPage{
+	height: auto;
+}
+#loginPage .main-container h1{
+	margin-top: 2em;
+	margin-bottom: 2em;
+	color: #fff;
+}
+#loginPage .main-container .login-form input{
+	background: #fff;
+	color: #BDBDBD;
+	padding-left: 10px;
+}
+#loginPage .main-container .login-form div i{
+	color: #BDBDBD;
+}
+#loginPage .main-container .login-form .login-btn{
+	margin-top: 40px;
+	background: #BDBDBD;
+	color: #fff;
+	border: 2px solid #fff;
+}
+#loginPage .main-container .login-footer{
+	margin-top: 30%;
+}
+#loginPage .main-container .login-footer p{
+	color: #fff;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#loginPage .main-container .login-footer h4{
+	padding-top: 4px;
+	margin-top: 0px;
+	font-size: 18px;
+}
+#loginPage .main-container .login-footer h4 a{
+	color: #fff;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #fff; 
+	/*text-decoration: underline;*/
+	cursor: move;
+}
+#loginPage .main-container .login-footer h4 a:hover{
+	text-decoration: none;
+}
+
+/*Register Page*/
+.md-input{
+	border-bottom: 1px solid rgba(160,160,160,0.2)!important;
+}
+#registerPage{
+	background: #BDBDBD;
+	height: auto;
+}
+.title{
+	text-align: center!important;
+	left:0px!important;
+}
+#registerPage .main-container h1{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: #fff;
+}
+#registerPage .main-container .register-form input{
+	background: #fff;
+	color: #BDBDBD;
+	padding-left: 10px;
+}
+#registerPage .main-container .register-form input:placeholder-shown {
+    color: #fff !important;
+}
+#registerPage .main-container .register-form div i{
+	color: #BDBDBD;
+}
+#registerPage .main-container .register-form .register-btn{
+	margin-top: 20px;
+	background: #BDBDBD;
+	color: #fff;
+	border: 2px solid #fff;
+}
+.google-btn{
+	background: #F11505!important;
+	color: #fff;
+}
+.facebook-btn{
+	background: #3A5795!important;
+	color: #fff;
+}
+#registerPage .main-container .register-form .facebook-btn span{
+	font-size: 14px;
+}
+.close-btn{
+	color: #fff!important;
+}
+
+/*Contacts page css*/
+.bar {
+	background-color: #3F51B5!important;
+	border-bottom: 1px solid #3F51B5!important;
+}
+.title{
+	color: #fff!important;
+}
+.ion-navicon{
+	color: #fff!important;
+}
+.item{
+	border: none!important;
+}
+.user-container{
+	position:relative;
+}
+.icon-container{
+	position:absolute;
+    top: 22px;
+    right: 47px;
+}
+.icon-container span{
+    top: 5px;
+    left: 10px;
+}
+
+/*Menu css*/
+.tabs-icon-color{
+	color: #fff;
+}
+a.tab-item {
+	color: #fff;
+}
+a.tab-item:hover{
+text-decoration: none;
+}
+/*chat page css*/
+.chatpage-header{
+	color: #fff!important;
+}
+.chatpage-header i{
+	color: #fff!important;
+}
+.chatpage-header p{
+	line-height: 16px;
+}
+.chatpage-header img{
+	max-width:40px;
+	padding-right: 6px;
+}
+.chatpage-header p span{
+	font-size: 10px;
+}
+.left-chat{
+	float:left; 
+	clear:both; 
+	position:relative;
+	padding-top: 0px!important;
+    padding-bottom: 0px!important;
+}
+.left-chat img.avatar {
+    border-radius: 50%;
+    float: left;
+    height: 40px;
+    margin-top: 8px;
+    /*position: absolute;*/
+    top: 22px;
+    left: 6px;
+    width: 40px;
+}
+.bubble-yellow {
+    background-color: #A29E39;
+    border-color: #A29E39;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 18px;
+    vertical-align: top;
+}
+.bubble-blue {
+    background-color: #78C9A7;
+    border-color: #78C9A7;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 18px;
+    vertical-align: top;
+}
+.left-chat p{
+	white-space:pre;
+	max-width: 11em;
+}
+.right-chat p{
+	white-space:pre;
+	max-width: 11em;
+}
+.left-chat p.chat-time{
+	padding-left: 50px;
+}
+.right-chat p.chat-time{
+	padding-right: 50px;
+	text-align: right;
+}
+.bubble-yellow p{
+	padding-left: 4px;
+	color: #fff;
+}
+.right-chat{
+	float:right; 
+	clear:both; 
+	position:relative;
+	padding-top: 0px!important;
+    padding-bottom: 5px!important;
+}
+.right-chat img.avatar {
+    border-radius: 50%;
+    float: right;
+    height: 40px;
+    margin-top: 8px;
+    /*position: absolute;*/
+    top: 22px;
+    right: 6px;
+    width: 40px;
+}
+.right-chat .bubble-blue p{
+	text-align: right;
+	padding-right: 4px;
+	color: #fff;
+}
+.send-msg{
+	margin-left: 6px;
+	background-color: #3F51B5!important;
+	border: 1px solid #fff!important;
+	border-radius: 50%;
+}
+.send-msg i{
+	padding-right: 7px!important;
+	margin-left: -1px!important;
+}
+.bar input{
+	background: #fff;
+	color: #3F51B5;
+	padding-left: 10px;
+}
+
+
+/*Setting Page Css*/
+#setting a.item{
+	padding: 8px 54px 8px 8px!important;
+	border: 1px solid #ddd!important;
+}#setting a i{
+	color: #ddd!important;
+	font-size: 24px;
+}
+
+/*Profile Page Css*/
+#profile .pad{
+	padding: 16px 0px 16px 0px;
+}
+span.name{
+	border: 1px solid #A9A9A9!important;
+	border-radius: 5px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	padding: 8px 54px 8px 8px!important;
+}
+span.name input{
+	border: 1px solid #3F51B5!important;
+}
+
+/*Chats Css*/
+#chats .time{
+	font-size: 12px;
+}
+#chats .item{
+	border-bottom:1px solid #ddd!important;
+	margin-top: 1px;
+}

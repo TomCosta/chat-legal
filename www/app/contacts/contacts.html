@@ -1,0 +1,29 @@
+<ion-view view-title="CONTACTS" id="background">
+  <ion-content scroll="true">
+ 	 <div class="list">
+ 	 		<div class="user-container" ng-repeat="contact in displaycontacts">
+                <a class="item item-avatar hover item-icon-right" href="#/app/chatpage">
+                    <img class="avatar" src="{{contact.image}}">
+                        <h3>{{contact.userName}}</h3>
+                        <p>{{contact.status}}</p>
+                    </a>
+                   </div>                
+                </div>
+  </ion-content>
+  <ion-footer-bar class="bar-stable">
+          <div class="tabs tabs-icon-top" id="background">
+            <a class="tab-item" href="#/app/contacts">
+              <i class="icon ion-person tabs-icon-color"></i>
+              Contacts
+            </a>
+            <a class="tab-item" href="#/app/chats">
+              <i class="icon ion-chatbubble tabs-icon-color"></i>
+              Chats
+            </a>
+            <a class="tab-item" href="#/app/setting">
+              <i class="icon ion-android-settings tabs-icon-color"></i>
+              Settings
+            </a>
+          </div>
+        </ion-fotter-bar>
+</ion-view>

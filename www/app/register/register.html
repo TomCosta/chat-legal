@@ -1,0 +1,39 @@
+<ion-view view-title="Register" id="background">
+  <ion-content>
+  <div class="navbar" style="margin-top:20px;">
+      <div class="navbar-brand text-center">
+        <span class="inline white">CHATT</span>
+      </div>
+    </div>
+      <div class="center-block w-xxl w-auto-xs">
+    <div class="p-lg panel md-whiteframe-z1 text-color m">
+      <div class="m-b text-sm">
+        Sign up to your CHATT Account
+      </div>
+      <form name="form">
+        <div class="md-form-group">
+          <input type="text" name="name" autocomplete="off" class="md-input" ng-model="user.name">
+          <label>Name</label>
+        </div>
+        <div class="md-form-group">
+          <input type="text" name="email" autocomplete="off" class="md-input" ng-model="user.email">
+          <label>Email</label>
+        </div>
+        <div class="md-form-group">
+          <input type="password" name="password" autocomplete="off" class="md-input" ng-model="user.password">
+          <label>Password</label>
+        </div>
+        <div class="m-b-md">
+          <label class="md-check">
+            <input type="checkbox"><i class="indigo"></i> Agree the <a href>terms and policy</a>
+          </label>
+        </div>
+        <button md-ink-ripple class="md-btn md-raised pink btn-block p-h-md" ng-click="register()"><span ng-show="registerSpinner"><i class="fa fa-spin fa-spinner"></i></span> Sign up</button>
+        <br>
+        <button type="button" class="md-btn md-raised btn-block p-h-md google-btn" ng-click="googleRegister()"><span ng-show="googleSpinner"><i class="fa fa-spin fa-spinner"></i></span> <span>CONNECT WITH</span> <i class="fa fa-google"></i></button>
+        <button type="button" class="md-btn md-raised btn-block p-h-md facebook-btn" ng-click="facebookRegister()"><span ng-show="facebookSpinner"><i class="fa fa-spin fa-spinner"></i></span> <span>CONNECT WITH</span> <i class="fa fa-facebook"></i></button>
+      </form>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>

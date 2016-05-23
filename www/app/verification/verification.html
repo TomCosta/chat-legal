@@ -1,0 +1,31 @@
+<ion-view view-title="Login" id="background">
+  <ion-content scroll="false">
+     <div class="center-block w-xxl w-auto-xs p-v-md">
+    <div class="navbar">
+      <div class="navbar-brand text-center">
+        <span class="inline white">CHATT</span>
+      </div>
+    </div>
+
+    <div class="p-lg panel md-whiteframe-z1 text-color m">
+      <div class="m-b text-sm">
+        Verify your CHATT Account
+      </div>
+      <form name="form">
+        <div class="md-form-group float-label" ng-show="showEmailInput">
+          <input type="text" class="md-input" ng-model="data.email" required>
+          <label>Email</label>
+        </div>
+        <div class="md-form-group float-label">
+          <input type="text" class="md-input" ng-model="data.varificationCode" required>
+          <label>Verification Code</label>
+        </div>
+        <button md-ink-ripple type="submit" class="md-btn md-raised pink btn-block p-h-md" ng-click="verify()">Submit</button>
+        <a type="submit" class="md-btn md-raised blue btn-block p-h-md" ui-sref="resendVerificationCode">Resend Verification Code</a>
+
+      </form>
+    </div>
+    </div>
+  </div>
+  </ion-content>
+</ion-view>

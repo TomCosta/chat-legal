@@ -1,0 +1,41 @@
+[{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/jarjan/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"css":"left-chat"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/mahdif/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"4 minutes ago",
+	"css":"right-chat"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/sprayaga/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"css":"left-chat"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/ruzinav/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"4 minutes ago",
+	"css":"right-chat"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/Skyhartman/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"css":"left-chat"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/moscoz/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"4 minutes ago",
+	"css":"right-chat"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"2 minutes ago",
+	"css":"left-chat"
+},{
+	"image": "https://s3.amazonaws.com/uifaces/faces/twitter/91bilal/128.jpg",
+	"message":"This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.",
+	"messageTime":"4 minutes ago",
+	"css":"right-chat"
+}]
