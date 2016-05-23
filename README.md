@@ -1,10 +1,20 @@
 # Chat-legal
 It's a simple Ionic chat template design with Google and Facebook auth.
 
-# How to use this template
+#### How to use this template
 
-To use this, download or copy the code and paste this into a folder and run $ ionic serve.
-<p>Let's see the magic happens...</p>
+</>To use this, download or copy the code and paste this into a folder and:</p> 
+```sh
+run $ bower install
+```
+```sh
+run $ npm install
+```
+```sh
+run $ ionic serve
+```
+
+<p>Relax and appreciate...</p>
 
 <br></br>
 More about Ionic: 
