@@ -3,7 +3,7 @@ It's a simple Ionic chat template design with Google and Facebook auth.
 
 #### How to use this template
 
-</>To use this, download or copy the code and paste this into a folder and:</p> 
+<p>To use this, download or copy the code and paste this into a folder and:</p> 
 ```sh
 run $ bower install
 ```
